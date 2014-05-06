@@ -1,0 +1,228 @@
+/*
+Theme Name: 	AskBryan Realestate
+Theme URI: 		http://beeing.us/wp-themes/askbryan
+Description: 	This is a wordpress theme beeing devloped for Bryan Vasquez
+Version: 		4.0
+Author: 		Patrik Matheson & Taze Raney
+Author URI: 	http://beeing.us
+Tags: 			clean,responsive,bootstrap
+*/
+
+/*
+===========================
+CONTENTS:
+
+01 Sensible defaults
+02 Typography
+03 Media queries 
+===========================
+*/
+
+/* ---------------------------------------------------------------------------------------------------------- 
+01 Sensible defaults ----------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+@import "css/reset.css";
+
+div,
+article,
+section,
+header,
+footer,
+nav,
+li					{ position:relative; /* For absolutely positioning elements within containers (add more to the list if need be) */ }
+.group:after 		{ display:block; height:0; clear:both; content:"."; visibility:hidden; /* For clearing */ }
+::-moz-selection 	{ background:#ff0; color:#333; }
+::selection 		{ background:#ff0; color:#333; }
+
+/* ---------------------------------------------------------------------------------------------------------- 
+02 Typography -----------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+/*
+
+14 / 16	= 		0.875em 		(14px equivalent)
+16 / 16	= 		1em 			(16px equivalent)
+18 / 16 = 		1.125em 		(18px equivalent)
+21 / 16 = 		1.3125em 		(21px equivalent)
+24 / 16 = 		1.5em 			(24px equivalent)
+30 / 16 = 		1.875em 		(30px equivalent)
+
+*/
+
+body,
+input,
+textarea 			{ /* We strongly recommend you declare font-weight using numerical values, but check to see which weights you're exporting first */ }
+.container-fluid {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+h1, 
+h3, 
+h4, 
+h5, 
+h6 					{ font-weight:bold; color: #ffffff; /* This helps to identify headings at the initial build stage, but you should write something more precise later on */ }
+
+/* ---------------------------------------------------------------------------------------------------------- 
+03 Media queries (using a mobile-first approach) ------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+/* 400 and up */
+@media screen and (min-width:400px) {
+
+					{ /* Place your styles here for all widths greater than 400px */ }
+
+}
+
+/* Retina Display */
+@media screen and (-webkit-min-device-pixel-ratio:2) {
+
+					{ /* Place your styles here for all 'Retina' screens */ }
+
+}
+/* ---------------------------------------------------------------------------------------------------------- 
+04 Navbar ----------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+.navbar {
+	background-color: #221e1f;
+	border: 0px solid #221e1f;
+	border-radius: 0;
+	padding: 20px;
+}
+
+a.navbar-brand{
+		color: #ec2027 !important;
+		font-size: 52px;
+		font-family: helvetica;
+}
+.bryan{
+	font-weight: bold;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- 
+05 Body ------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+.hero {
+	background: url('images/homescreen_background_image.jpg') no-repeat top center;
+	background-size: cover;
+	padding:75px 45px 50px 45px;
+	margin-top: -20px; 
+}
+.sub-sect{
+	padding-top: 50px;
+}
+.reports{
+	border-left: 1px solid #fff;
+}
+.hero h2{
+	font-size: 60px;
+	color: white;
+	text-align: center;
+}
+.hero p{
+	font-size: 24px;
+	line-height: 36px;
+	text-align: center;
+}
+
+.h-btn{
+	background: transparent;
+	border: 1px solid #fff;
+	color: white;
+	margin-top: 100px;
+}
+
+.home p {
+	color: white;
+}
+
+.reports h1 {
+	text-align: center;
+	padding-right: 300px;
+}
+
+.reports p {
+	text-align: center;
+}
+
+.estimate button {
+	margin-right: 20px;
+}
+
+.blog {
+	background-color: white;
+}
+
+.blog a {
+	color: red;
+	font-size: 42px;
+}
+.blog p {
+	font-size: 20px;
+}
+
+.latest {
+	border: 15px solid #221e1f;
+	background: #221e1f;
+	color: white;
+	font-size: 23px;
+	float: right;
+	margin-right: -70px;
+}
+
+.read_more {
+	background-color: #ec2027;
+	color: white;
+	border: 20px solid #ec2027;
+	margin-left: 800px;
+	font-size: 43px;
+}
+
+.meet_bryan {
+	padding-top: 100px;
+}
+.meet_bryan h1 {
+	color: #ec2027;
+	text-align: center;
+	padding-left: 250px;
+}
+
+.meet_bryan p {
+	color: #ec2027;
+	text-align: center;
+	float: right;
+	padding-left: 550px;
+	padding-right: 300px;
+}
+
+.meet_bryan img {
+	padding-bottom: 100px;
+	position: absolute;
+}
+
+.contact {
+	background-color: #3d3432;
+	background-size: cover;
+}
+
+.contact input {
+	background: transparent;
+	border: 3px solid white;
+	padding-right: 160px;
+}
+
+.contact button {
+	background-color: #dc3627;
+	border: 1px solid #dc3627;
+}
+.contact img {
+	margin-right: 20px;
+}
+.contact h2 {
+	font-size: 20px;
+	color: white;
+		
+}
+.form {
+	margin-top: 20px;
+}

@@ -22,7 +22,8 @@ CONTENTS:
 01 Sensible defaults ----------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 
-@import "css/reset.css";
+@import "reset.css";
+@import "bootstrap.min.css";
 
 div,
 article,
@@ -167,7 +168,7 @@ a.navbar-brand{
 	color: white;
 	font-size: 23px;
 	float: right;
-	margin-right: -70px;
+	margin-right: -84px;
 }
 
 .read_more {
@@ -184,36 +185,46 @@ a.navbar-brand{
 .meet_bryan h1 {
 	color: #ec2027;
 	text-align: center;
-	padding-left: 250px;
+	padding-left: 350px;
 }
 
 .meet_bryan p {
 	color: #ec2027;
 	text-align: center;
 	float: right;
-	padding-left: 550px;
-	padding-right: 300px;
+	padding-left: 545px;
+	padding-right: 191px;
 }
 
 .meet_bryan img {
 	padding-bottom: 100px;
 	position: absolute;
 }
-
 .contact {
 	background-color: #3d3432;
 	background-size: cover;
+	
 }
-
 .contact input {
 	background: transparent;
 	border: 3px solid white;
 	padding-right: 160px;
+	margin-left: 50px;
+	font-size: 29px;
+}
+.contact input, select, textarea{
+    color: white;
 }
 
 .contact button {
 	background-color: #dc3627;
 	border: 1px solid #dc3627;
+	color: white;
+	margin-left: 50px;
+	font-size: 60px;
+	padding-right: 60px;
+	padding-left: 60px;
+	text-align: center;
 }
 .contact img {
 	margin-right: 20px;
@@ -221,8 +232,31 @@ a.navbar-brand{
 .contact h2 {
 	font-size: 20px;
 	color: white;
-		
+	margin-left: 50px;		
 }
 .form {
 	margin-top: 20px;
+}
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+:-ms-input-placeholder {  
+   color: white;  
+}
+.made_by {
+	float: right;
+	font-size: 15px;
+	color: #ec2027;
+}
+.made_by a {
+	font-size: 15px;
 }

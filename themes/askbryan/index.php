@@ -19,7 +19,7 @@
 <div class="container-fluid">
 		<div class="row hero clear">
 			<div class="estimate col-md-6 container">
-				<h2>Home Estimate</h2>
+				<h2>taze</h2>
 					<br/>
 				<p>Cras mattis consectetur purus sit amet fermentum.<br />Donec ullamcorper nulla non metus auctor fringilla.</p>
 	

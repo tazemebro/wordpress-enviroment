@@ -73,8 +73,8 @@
 	    wp_enqueue_style( 'style' );
 	    
 	    /*JavaScript*/
-	    wp_register_style( 'bootstrap.min.js', get_stylesheet_directory_uri().'/js/bootstrap.min.js', '', '', 'all' );
-	    wp_enqueue_style( 'bootstrap.min.js' );
+	    wp_register_style( 'site.js', get_stylesheet_directory_uri().'/js/site.js', '', '', 'all' );
+	    wp_enqueue_style( 'site.js' );
 	  
 	}	
 	

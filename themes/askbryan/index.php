@@ -65,6 +65,31 @@
 	</div>
 </div>
 <!-- End Blog Section -->
+<!-- Testimonials -->
+<div class="testimonials container-fluid">
+		<div class="row">
+			<h2>What's better than a satisfied customer?</h2>
+				<div class="col-md-6">
+					<p class="first"><span class="quote">"</span>Bryan helped us find the perfect home for our family!<span class="quote">"</span>- Jack
+					</p>
+			</div>
+			
+			<div class="col-md-4">
+				<img src="<?php bloginfo ('template_directory'); ?>/css/images/asian_family.png" alt="family photo" />
+			</div>	
+			
+				<div class="col-md-4">
+					<img class="woman" src="<?php bloginfo ('template_directory'); ?>/css/images/woman.png" alt="woman" />
+				</div>
+			<div class="col-md-6">
+				<p class="second"><span class="quote">"</span>I couldn't be happier with where I live!<span class="quote">"</span>
+				- Susan
+				</p>
+			</div>				
+		</div>
+	</div>		
+</div>				
+<!-- End Testimonials -->
 
 <!-- Meet Bryan Section -->
 <div class="meet_bryan container" style="padding-bottom: 200px;">
@@ -74,10 +99,9 @@
 	</div>		
 		<div class="col-md-6">
 				<h1>Meet Bryan</h1>		
-				<p>Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+				<p>Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. 
 				</p>
 		</div>
-
 	</div>
 </div>
 <!-- End Meet Bryan Section -->

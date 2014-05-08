@@ -69,8 +69,8 @@
 	    wp_enqueue_style( 'bootstrap.min.css' );
 	    
 	    /*style css STAYS AT BOTTOM OF CSS INCLUDES*/
-	    wp_register_style( 'style.css', get_stylesheet_directory_uri().'/css/style.css', '', '', 'all' );
-	    wp_enqueue_style( 'style.css' );
+	    wp_register_style( 'style', get_stylesheet_directory_uri().'/style.css', '', '', 'all' );
+	    wp_enqueue_style( 'style' );
 	    
 	    /*JavaScript*/
 	    wp_register_style( 'site.js', get_stylesheet_directory_uri().'/js/site.js', '', '', 'all' );

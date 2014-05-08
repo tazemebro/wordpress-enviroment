@@ -69,23 +69,44 @@
 <div class="testimonials container-fluid">
 		<div class="row">
 			<h2>What's better than a satisfied customer?</h2>
-				<div class="col-md-6">
+				
+				<div class="col-md-7">
 					<p class="first"><span class="quote">"</span>Bryan helped us find the perfect home for our family!<span class="quote">"</span>- Jack
 					</p>
-			</div>
-			
-			<div class="col-md-4">
-				<img src="<?php bloginfo ('template_directory'); ?>/css/images/asian_family.png" alt="family photo" />
-			</div>	
-			
-				<div class="col-md-4">
-					<img class="woman" src="<?php bloginfo ('template_directory'); ?>/css/images/woman.png" alt="woman" />
 				</div>
-			<div class="col-md-6">
-				<p class="second"><span class="quote">"</span>I couldn't be happier with where I live!<span class="quote">"</span>
-				- Susan
-				</p>
-			</div>				
+				
+					<div class="col-md-4">
+						<img class="asian" src="<?php bloginfo ('template_directory'); ?>/css/images/asian_family.png" alt="family photo" />
+					</div>
+						
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+					
+					<div class="col-md-5">
+						<img class="woman" src="<?php bloginfo ('template_directory'); ?>/css/images/woman.png" alt="woman" />
+					</div>
+					<div class="col-md-7">
+						<p class="second"><span class="quote">"</span>I couldn't be happier with where I live!<span class="quote">"</span>
+						- Susan
+						</p>
+					</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+					<div class="col-md-7">
+						<p class="third"><span class="quote">"</span>Bryan helped us find our first home!<span class="quote">"</span>
+						- Jennifer and Dan
+						</p>
+					</div>
+					
+						<div class="col-md-4">
+							<img class="couple" src="<?php bloginfo ('template_directory'); ?>/css/images/couple.png" alt="couple" />
+						</div>
+			</div>
+		</div>
+											
 		</div>
 	</div>		
 </div>				

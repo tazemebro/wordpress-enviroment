@@ -1,5 +1,5 @@
 <header>
-<nav class="navbar navbar-default" role="navigation" style="margin-right: -15px;">
+<nav class="navbar navbar-default" role="navigation" class="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">

@@ -72,15 +72,18 @@
 	    wp_register_style( 'style', get_stylesheet_directory_uri().'/style.css', '', '', 'all' );
 	    wp_enqueue_style( 'style' );
 	    
+	    /*jquery*/
+	    wp_register_script( 'jquery', get_stylesheet_directory_uri().'/js/jquery.js', '', '', '' );
+	    wp_enqueue_script( 'jquery' );
+	    
 	    /*JavaScript*/
-	    wp_register_style( 'siteJs', get_stylesheet_directory_uri().'/js/site.js', '', '', 'all' );
-	    wp_enqueue_style( 'siteJs' );
+	    wp_register_script( 'siteJs', get_stylesheet_directory_uri().'/js/site.js', '', '', '' );
+	    wp_enqueue_script( 'siteJs' );
 	    
-	    wp_register_style( 'bootstrapJs', get_stylesheet_directory_uri().'/js/bootstrap.min.js', '', '', 'all' );
-	    wp_enqueue_style( 'bootstrapJs' );
+	    wp_register_script( 'bootstrapJs', get_stylesheet_directory_uri().'/js/bootstrap.min.js', '', '', '' );
+	    wp_enqueue_script( 'bootstrapJs' );
 	    
-	  	wp_register_style( 'jquery', get_stylesheet_directory_uri().'/js/jquery.js', '', '', 'all' );
-	  	wp_enqueue_style( 'jquery' );
+
 	  	
 	}	
 	

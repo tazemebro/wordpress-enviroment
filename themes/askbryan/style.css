@@ -77,8 +77,16 @@ h6 					{ font-weight:bold; color: #ffffff; /* This helps to identify headings a
 .btn-primary{
 	background: #4181D6;
 }
+.btn-group{
+	padding: 20px;
+	margin: 0px 20px 0px 0px;
+}
 .btn-success{
 	background: #9EE550;
+}
+.btn-danger{
+	background: #ec2027;
+	border:none;
 }
 /* ---------------------------------------------------------------------------------------------------------- 
 03 Media queries (using a mobile-first approach) ------------------------------------------------------------
@@ -107,6 +115,7 @@ h6 					{ font-weight:bold; color: #ffffff; /* This helps to identify headings a
 	border-radius: 0;
 	padding: 20px;
 	padding-top: 40px;
+	height: 25%;
 }
 
 a.navbar-brand{
@@ -313,7 +322,22 @@ article.home_post{
 	font-size: 44px;
 	color: #444;
 }
-
+.dropdown-menu{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1000;
+	display: none;
+	float: left;
+	min-width: 160px;
+	padding: 5px 0;
+	margin: 20px -26px 0 0;
+	background: rgba(255,255,255,255.7);
+	border-radius: 0px 0px 0px 4px;
+}
+.dropdown-menu li a{
+	color: #ec2027;
+}
 .testimonials h2 {
 	text-align: center;
 	font-size: 50px;

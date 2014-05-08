@@ -19,39 +19,22 @@
 <div class="container-fluid">
 		<div class="row hero clear">
 			<div class="estimate col-md-6 container">
-				<h2>taze</h2>
+				<h2>Home Estimate</h2>
 					<br/>
 				<p>Cras mattis consectetur purus sit amet fermentum.<br />Donec ullamcorper nulla non metus auctor fringilla.</p>
+						<button class="btn h-btn btn-primary">Estimate My Home</button>
+		
+		
+			</div>		
 	
-			<div class="row">
-				<div class="col-md-10 sub-sect">
-					<div class="col-md-7">
-						<button class="btn h-btn">Estimate My Home</button>
-					</div>				
-					<div class="col-md-5">
-						<img src="<?php bloginfo ('template_directory'); ?>/css/images/coins_photo.png" alt="home esitmate" />
-					</div>
-				</div>
-			</div>					
-		</div>		
-	
-		<div class="reports col-md-6">
-			<h2>Get Reports</h2>
-				<br/>
-			<p>Donec ullamcorper nulla non metus auctor fringilla.<br />Donec id elit non mi porta gravida at eget metus.</p>
-	
-			<div class="row">
-				<div class="col-md-10 sub-sect">
-					<div class="col-md-5">
-						<img src="<?php bloginfo ('template_directory'); ?>/css/images/papers_photo.png" alt="get reports" />
-					</div>
-					<div class="col-md-7">	
-						<button class="btn h-btn pull-right">Stay In The Loop</button>
-					</div>	
+			<div class="reports col-md-6 container">
+				<h2>Get Reports</h2>
+					<br/>
+				<p>Donec ullamcorper nulla non metus auctor fringilla.<br />Donec id elit non mi porta gravida at eget metus.</p>
+						<button class="btn h-btn btn-success">Stay In The Loop</button>	
 				</div>
 			</div>		
-		</div>	
-	</div>
+
 <!-- Blog Section -->												
 <div class="container" style="padding-top: 75px; padding-bottom: 120px;">
 	<div class="row">

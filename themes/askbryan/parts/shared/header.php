@@ -1,5 +1,5 @@
 <header>
-<nav class="navbar navbar-default" role="navigation" style="margin-right: -15px;">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="margin-right: -15px;">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="<?php echo home_url(); ?>">Ask<span class="bryan">BRYAN</span></a>
+      <a href="<?php echo home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri();?>/css/images/bryan-logo.png"/></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->

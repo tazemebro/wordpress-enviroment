@@ -65,17 +65,23 @@
 	function starkers_script_enqueuer() {
 	
 	    /*bootstrap .min.csss*/
-	    wp_register_style( 'bootstrap.min.css', get_stylesheet_directory_uri().'/css/bootstrap.min.css', '', '', 'all' );
-	    wp_enqueue_style( 'bootstrap.min.css' );
+	    wp_register_style( 'bootstrapStyle', get_stylesheet_directory_uri().'/css/bootstrap.min.css', '', '', 'all' );
+	    wp_enqueue_style( 'bootstrapStyle' );
 	    
 	    /*style css STAYS AT BOTTOM OF CSS INCLUDES*/
 	    wp_register_style( 'style', get_stylesheet_directory_uri().'/style.css', '', '', 'all' );
 	    wp_enqueue_style( 'style' );
 	    
 	    /*JavaScript*/
-	    wp_register_style( 'site.js', get_stylesheet_directory_uri().'/js/site.js', '', '', 'all' );
-	    wp_enqueue_style( 'site.js' );
-	  
+	    wp_register_style( 'siteJs', get_stylesheet_directory_uri().'/js/site.js', '', '', 'all' );
+	    wp_enqueue_style( 'siteJs' );
+	    
+	    wp_register_style( 'bootstrapJs', get_stylesheet_directory_uri().'/js/bootstrap.min.js', '', '', 'all' );
+	    wp_enqueue_style( 'bootstrapJs' );
+	    
+	  	wp_register_style( 'jquery', get_stylesheet_directory_uri().'/js/jquery.js', '', '', 'all' );
+	  	wp_enqueue_style( 'jquery' );
+	  	
 	}	
 	
 	/* ========================================================================================================================

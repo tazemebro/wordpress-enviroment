@@ -55,7 +55,7 @@
 <!-- Blog Section -->												
 <div class="container" style="padding-top: 75px; padding-bottom: 120px;">
 	<div class="row">
-		<div class="blog col-md-6 pull-right">
+		<div class="blog col-md-12 pull-right">
 			<h3 class="latest">Latest From The Blog!</h3>
 		</div>	
 
@@ -64,7 +64,7 @@
 			<?php while ( have_posts() ) : the_post(); ?>
 			<!--<li>-->
 
-	<article>
+	<article class="home_post">
 	
 		<h2><a href="<?php esc_url( the_permalink() ); ?>" title="Permalink to <?php the_title(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 			<p>
@@ -86,20 +86,23 @@
 <!-- Meet Bryan Section -->
 <div class="meet_bryan container" style="padding-bottom: 200px;">
 	<div class="row">
-		<div class="col-md-12">
-			<h1>Meet Bryan</h1>
+	<div class="col-md-6">				
+				<img src="<?php bloginfo ('template_directory'); ?>/css/images/bryan.png" alt="Bryan Vasquez" style="margin-top: -90px;"/>
+	</div>		
+		<div class="col-md-6">
+				<h1>Meet Bryan</h1>		
 				<p>Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
 				</p>
-					<img src="<?php bloginfo ('template_directory'); ?>/css/images/bryan.png" alt="Bryan Vasquez" style="margin-top: -90px;"/>
-		</div>		
+		</div>
+
 	</div>
 </div>
 <!-- End Meet Bryan Section -->
 <!-- Contact Section -->
 	<div class="contact container-fluid" style="width: 100%; padding-top: 100px; padding-bottom: 250px;">
 		<div class="row"> 
-			<div class="col-md-6">
-				<h1 style="margin-left: 50px;">Let's Get in Touch</h1>
+			<div class="col-md-6 contact_form">
+				<h2 style="margin-left: 50px;">Let's Get in Touch</h2>
 
 				<form method="post" action="contact">
 					<input type="text" name="cf_name" placeholder="Name" />
@@ -111,11 +114,11 @@
 					<input type="text" name="cf_service" placeholder="What Can I Do For You?" style="padding-bottom: 90px;" />
 						<br />
 						<br />
-					<button>Submit</button>
+					<button type="submit" class="submit	">Submit</button>
 				</form>
 			</div>
 		<div class="col-md-6">
-				<h2>Click the cards to download my info!</h2>
+				<h3>Click the cards to download my info!</h2>
 			<img src="<?php bloginfo ('template_directory'); ?>/css/images/contact_info.png" alt="contact info" />
 		</div>	
 	</div>	

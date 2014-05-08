@@ -22,8 +22,8 @@ CONTENTS:
 01 Sensible defaults ----------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 
-@import "reset.css";
-@import "bootstrap.min.css";
+@import "/askbryan/wp-content/themes/askbryan/css/reset.css";
+@import "/askbryan/wp-content/themes/askbryan/css/bootstrap.min.css";
 
 html,body
 {
@@ -31,7 +31,8 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
+    font-family: raleway; 
 }
 
 div,
@@ -113,7 +114,6 @@ a.navbar-brand{
 05 Body ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 .hero {
-	background: url('css/images/homescreen_background_image.jpg') no-repeat top center;
 	background-size: cover;
 	padding:75px 45px 50px 45px;
 	margin-top: -20px; 
@@ -123,10 +123,11 @@ a.navbar-brand{
 }
 .reports{
 	border-left: 1px solid #fff;
+	color: red;
 }
 .hero h2{
 	font-size: 60px;
-	color: white;
+	color: red;
 	text-align: center;
 }
 .hero p{
@@ -143,7 +144,8 @@ a.navbar-brand{
 }
 
 .home p {
-	color: white;
+	color: red;
+	
 }
 
 .reports h1 {
@@ -193,33 +195,41 @@ a.navbar-brand{
 }
 .meet_bryan h1 {
 	color: #ec2027;
-	text-align: center;
-	padding-left: 350px;
+	text-align: left;
+	padding-bottom: 75px;
+	font-size: 72px;
 }
 
 .meet_bryan p {
 	color: #ec2027;
-	text-align: center;
-	float: right;
-	padding-left: 545px;
-	padding-right: 191px;
+	text-align: left;
 }
 
 .meet_bryan img {
 	padding-bottom: 100px;
-	position: absolute;
+	padding-top: 80px;
 }
 .contact {
 	background-color: #3d3432;
 	background-size: cover;
+	padding-top: 100px;
 	
+}
+.contact_form{
+	margin-top: 100px;
 }
 .contact input {
 	background: transparent;
-	border: 3px solid white;
-	padding-right: 160px;
+	border: 5px solid white;
+	width: 80%;
 	margin-left: 50px;
 	font-size: 29px;
+	border-radius: 8px;
+	padding: 20px;
+	font-weight:bold;
+	color: white;
+	margin-top: 25px;
+	outline: 0;
 }
 .contact input, select, textarea{
     color: white;
@@ -234,32 +244,40 @@ a.navbar-brand{
 	padding-right: 60px;
 	padding-left: 60px;
 	text-align: center;
+	
 }
 .contact img {
 	margin-right: 20px;
 }
 .contact h2 {
-	font-size: 20px;
+	font-size: 58px;
 	color: white;
 	margin-left: 50px;		
 }
+
 .form {
 	margin-top: 20px;
 }
+.submit{
+	margin-top: 25px;
+	width: 80%;
+	box-shadow: 0px 5px 5px #2a2a2a;
+	text-shadow: 2px 2px 2px #2a2a2a;
+}
 ::-webkit-input-placeholder {
-   color: white;
+   color: gray;
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: white;  
+   color: gray;  
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: white;  
+   color: gray;  
 }
 
 :-ms-input-placeholder {  
-   color: white;  
+   color: gray;  
 }
 .made_by {
 	float: right;
@@ -268,4 +286,16 @@ a.navbar-brand{
 }
 .made_by a {
 	font-size: 15px;
+}
+article.home_post{
+	margin-top: 125px;
+}
+.home_post h2 a{
+	font-size: 72px;
+
+}
+.home_post p{
+	margin-top: 75px;
+	font-size: 44px;
+	color: #444;
 }

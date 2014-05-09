@@ -66,49 +66,45 @@
 </div>
 <!-- End Blog Section -->
 <!-- Testimonials -->
+
 <div class="testimonials container-fluid">
-		<div class="row">
-			<h2>What's better than a satisfied customer?</h2>
-				
-				<div class="col-md-7">
-					<p class="first"><span class="quote">"</span>Bryan helped us find the perfect home for our family!<span class="quote">"</span>- Jack
-					</p>
-				</div>
-				
-					<div class="col-md-4">
-						<img class="asian" src="<?php bloginfo ('template_directory'); ?>/css/images/asian_family.png" alt="family photo" />
+	<div class="row">
+		<div class="flexslider_container">
+			<div class="flexslider">
+				<ul class="slides">
+					<div class="slide_left">
+						<img class="woman da-image" src="<?php bloginfo ('template_directory'); ?>/css/images/woman.png" alt="woman" />
 					</div>
-						
-		</div>
-		<div class="container-fluid">
-			<div class="row">
-					
-					<div class="col-md-5">
-						<img class="woman" src="<?php bloginfo ('template_directory'); ?>/css/images/woman.png" alt="woman" />
-					</div>
-					<div class="col-md-7">
+					<div class="slide_right">
 						<p class="second"><span class="quote">"</span>I couldn't be happier with where I live!<span class="quote">"</span>
 						- Susan
 						</p>
-					</div>
-			</div>
-		</div>
-		<div class="container-fluid">
-			<div class="row">
-					<div class="col-md-7">
-						<p class="third"><span class="quote">"</span>Bryan helped us find our first home!<span class="quote">"</span>
-						- Jennifer and Dan
-						</p>
-					</div>
+					</div>			
+					<li>			
+					<div class="da-slide">
+
+						<p class="third"><span class="quote">"</span>Bryan helped us find our first home!<span class="quote">"</span>- Jennifer and Dan
+						</p>		
+				
+	
+						<img class="couple da-image" src="<?php bloginfo ('template_directory'); ?>/css/images/couple.png" alt="couple" />
 					
-						<div class="col-md-4">
-							<img class="couple" src="<?php bloginfo ('template_directory'); ?>/css/images/couple.png" alt="couple" />
-						</div>
+					</div>
+				</li>
+				</ul>
 			</div>
 		</div>
-											
-		</div>
-	</div>		
+
+		
+
+	
+	
+			<nav class="da-arrows">
+					    <span class="da-arrows-prev"></span>
+					    <span class="da-arrows-next"></span>
+			</nav>				
+	</div>
+	</div>
 </div>				
 <!-- End Testimonials -->
 

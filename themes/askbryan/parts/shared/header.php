@@ -17,10 +17,9 @@
 	    Menu <span class="caret"></span>
 	  </button>
 	  <ul class="dropdown-menu" role="menu">
-	    <li><a href="#">Blog</a></li>
-	    <li><a href="#">Testimonials</a></li>
-	    <li><a href="#">About Bryan</a></li>
-	    <li><a href="#">Contact</a></li>
+	    <li><a href="#">Action</a></li>
+	    <li><a href="#">Another action</a></li>
+	    <li><a href="#">Something else here</a></li>
 	    <li class="divider"></li>
 	    <li><a href="#">Separated link</a></li>
 	  </ul>

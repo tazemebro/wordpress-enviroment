@@ -331,7 +331,7 @@ article.home_post{
 	float: left;
 	min-width: 160px;
 	padding: 5px 0;
-	margin: 20px -26px 0 0;
+	margin: 0px -26px 0 0;
 	background: rgba(255,255,255,255.7);
 	border-radius: 0px 0px 0px 4px;
 }
@@ -386,4 +386,12 @@ article.home_post{
 }
 .third {
 	padding-top: 140px;
+}
+#layerslider_1 h3{
+	color: black;
+}
+#photo-1-testimonial{
+ width: 365px !important;
+	
+ height: 365px !important;
 }

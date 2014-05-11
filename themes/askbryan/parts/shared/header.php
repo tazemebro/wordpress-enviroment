@@ -17,11 +17,11 @@
 	    Menu <span class="caret"></span>
 	  </button>
 	  <ul class="dropdown-menu" role="menu">
-	    <li><a href="#">Action</a></li>
-	    <li><a href="#">Another action</a></li>
-	    <li><a href="#">Something else here</a></li>
+	    <li><a href="#">Blog</a></li>
+	    <li><a href="#">Customer Testimonials</a></li>
+	    <li><a href="#">Meet Bryan</a></li>
 	    <li class="divider"></li>
-	    <li><a href="#">Separated link</a></li>
+	    <li><a href="#">Contact Bryan</a></li>
 	  </ul>
 	</div>
   </div><!-- /.container-fluid -->

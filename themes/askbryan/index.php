@@ -54,13 +54,13 @@
 					<?php the_content(); ?>
 				</div>
 				<div class="col-md-5">	
-					<img class="house_image" src="<?php bloginfo ('template_directory'); ?>/css/images/house_image.png" alt="house" style="padding-top: 85px; padding-bottom: 40px;"/>
+					<img class="house_image" src="<?php bloginfo ('template_directory'); ?>/css/images/house_image.png" alt="house" style="padding-top: 65px; padding-bottom: 40px;"/>
 				</div>	
 			</div>	
 	</article>
 	
 	<!--</li>-->
-	<button class="read_more">Read More</button>
+	<a href="http://localhost:8888/askbryan/?p=1"><button style="margin-left: 15px; margin-top: -64px;" class="read_more">Read More</button></a>
 		<?php endwhile; ?>
 		<!--</ol>-->
 		<?php else: ?>
@@ -70,7 +70,7 @@
 </div>
 <!-- End Blog Section -->
 <!-- Testimonials -->
-<?php layerslider(1) ?>			
+<?php layerslider(2) ?>			
 <!-- End Testimonials -->
 
 <!-- Meet Bryan Section -->
@@ -106,8 +106,8 @@
 					<button type="submit" class="submit	">Submit</button>
 				</form>
 			</div>
-		<div class="col-md-6">
-				<h3>Click the cards to download my info!</h2>
+		<div class="col-md-6" style="text-align: center; margin-top: 200px;" >
+				<h3 style="color: white;">Click the cards to download my info!</h2>
 			<img src="<?php bloginfo ('template_directory'); ?>/css/images/contact_info.png" alt="contact info" />
 		</div>	
 	</div>	

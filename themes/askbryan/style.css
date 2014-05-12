@@ -72,7 +72,7 @@ h1,
 h3, 
 h4, 
 h5, 
-h6 					{ font-weight:bold; color: #ffffff; /* This helps to identify headings at the initial build stage, but you should write something more precise later on */ }
+h6 					{ font-weight:bold; color: black; /* This helps to identify headings at the initial build stage, but you should write something more precise later on */ }
 
 .btn-primary{
 	background: #4181D6;
@@ -397,7 +397,4 @@ article.home_post{
  width: 365px !important;
 	
  height: 365px !important;
-}
-.home_image {
-	
 }

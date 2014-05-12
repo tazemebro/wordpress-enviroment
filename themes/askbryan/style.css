@@ -82,7 +82,7 @@ h6 					{ font-weight:bold; color: black; /* This helps to identify headings at 
 	margin: 0px 20px 0px 0px;
 }
 .btn-success{
-	background: #9EE550;
+	background: #47a447;
 }
 .btn-danger{
 	background: #ec2027;
@@ -131,7 +131,7 @@ a.navbar-brand{
 05 Body ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 .hero {
-	background: rgba(255, 255, 255, .35);
+	background: url(../askbryan/css/images/home_background.png);
 	background-size: cover;
 	padding:225px 45px 100px 45px;
 	margin-top: -20px; 
@@ -149,11 +149,13 @@ a.navbar-brand{
 	color: black;
 	text-align: center;
 	font-weight: 300;
+	color: white;
 }
 .hero p{
 	font-size: 24px;
 	line-height: 36px;
 	text-align: center;
+	color: white;
 }
 
 .h-btn{
@@ -170,10 +172,8 @@ a.navbar-brand{
 }
 
 .home p {
-<<<<<<< HEAD
-=======
-	color: black;
->>>>>>> FETCH_HEAD
+color: white;
+
 	
 }
 

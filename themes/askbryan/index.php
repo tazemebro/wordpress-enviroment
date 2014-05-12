@@ -46,6 +46,7 @@
 			<!--<ol>-->	
 			<?php while ( have_posts() ) : the_post(); ?>
 			<!--<li>-->
+			<?php if (++$count > 1) break; ?>
 
 	<article class="home_post container">
 		<div class="row">
@@ -54,8 +55,7 @@
 					<?php the_content(); ?>
 				</div>
 				<div class="col-md-5">	
-					<img class="house_image" src="<?php bloginfo ('template_directory'); ?>/css/images/house_image.png" alt="house" style="padding-top: 65px; padding-bottom: 40px;"/>
-				</div>	
+					<?php if(has_post_thumbnail()){the_post_thumbnail();}else{echo 'not';} ?>
 			</div>	
 	</article>
 	

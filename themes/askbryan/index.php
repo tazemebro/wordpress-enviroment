@@ -54,7 +54,7 @@
 					<?php the_content(); ?>
 				</div>
 				<div class="col-md-5">	
-					<img class="house_image" src="<?php bloginfo ('template_directory'); ?>/css/images/house_image.png" alt="house" style="padding-top: 85px; padding-bottom: 40px;"/>
+					<img class="house_image" src="<?php bloginfo ('template_directory'); ?>/css/images/house_image.jpg" alt="house" style="padding-top: 85px;"/>
 				</div>	
 			</div>	
 	</article>

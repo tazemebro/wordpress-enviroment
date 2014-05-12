@@ -53,10 +53,10 @@
 	<article class="home_post container">
 		<div class="row">
 			<h2><a href="<?php esc_url( the_permalink() ); ?>" title="Permalink to <?php the_title(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-				<div class="col-md-9">
+				<div class="col-md-8">
 					<?php the_content(); ?>
 				</div>
-				<div class="col-md-3">	
+				<div style="margin-top: 95px;" class="col-md-4">
 					<?php if(has_post_thumbnail()){the_post_thumbnail();}else{echo 'not';} ?>
 			</div>	
 	</article>
@@ -70,13 +70,13 @@
 		<?php endif; ?>
 	</div>
 </div>
-<!-- End Blog Section -->
+<!-- End Blog Section --> 
 <!-- Testimonials -->
 <?php layerslider(2) ?>			
 <!-- End Testimonials -->
 
 <!-- Meet Bryan Section -->
-<div class="meet_bryan container" style="padding-bottom: 200px;">
+<div class="meet_bryan container" style="padding-top: 150px; padding-bottom: 200px;">
 	<div class="row">
 	<div class="col-md-6">				
 				<img src="<?php bloginfo ('template_directory'); ?>/css/images/bryan.png" alt="Bryan Vasquez" style="margin-top: -90px;"/>
@@ -114,6 +114,5 @@
 		</div>	
 	</div>	
 </div>
-
 
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer') ); ?>

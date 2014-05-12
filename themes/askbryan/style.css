@@ -32,7 +32,7 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: Ubuntu !important;
     font-weight: 300;
 }
 
@@ -76,6 +76,12 @@ h6 					{ font-weight:bold; color: black; /* This helps to identify headings at 
 
 .btn-primary{
 	background: #4181D6;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	font-size: 20px;
+	width: 100%;
 }
 .btn-group{
 	padding: 20px;
@@ -348,10 +354,11 @@ article.home_post{
 }
 .testimonials p {
 	color: black;
-	font-size: 35px;
+	font-size: 15px;
 	text-align: center;
 	padding-right: 45px;
 	padding-left: 25px;
+	font-family: Ubuntu;
 }
 .quote {
 	color: #ec2027;
@@ -391,7 +398,7 @@ article.home_post{
 	padding-top: 140px;
 }
 #layerslider_1 h3{
-	color: black;
+	background-color: black;
 }
 #photo-1-testimonial{
  width: 365px !important;

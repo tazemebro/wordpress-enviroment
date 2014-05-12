@@ -171,7 +171,7 @@ a.navbar-brand{
 }
 
 .home p {
-	color: white;
+	color: black;
 	
 }
 
@@ -394,4 +394,7 @@ article.home_post{
  width: 365px !important;
 	
  height: 365px !important;
+}
+.home_image {
+	
 }

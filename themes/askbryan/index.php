@@ -38,7 +38,7 @@
 <!-- Blog Section -->												
 <div class="container" style="padding-top: 75px; padding-bottom: 120px;">
 	<div class="row">
-		<div class="blog col-md-12 pull-right">
+		<div class="blog col-md-7 pull-right">
 			<h3 class="latest">Latest From The Blog!</h3>
 		</div>	
 
@@ -47,12 +47,16 @@
 			<?php while ( have_posts() ) : the_post(); ?>
 			<!--<li>-->
 
-	<article class="home_post">
-	
-		<h2><a href="<?php esc_url( the_permalink() ); ?>" title="Permalink to <?php the_title(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-			<p>
-				<?php the_content(); ?>
-			</p>	
+	<article class="home_post container">
+		<div class="row">
+			<h2><a href="<?php esc_url( the_permalink() ); ?>" title="Permalink to <?php the_title(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+				<div class="col-md-7">
+					<?php the_content(); ?>
+				</div>
+				<div class="col-md-5">	
+					<img class="house_image" src="<?php bloginfo ('template_directory'); ?>/css/images/house_image.jpg" alt="house" style="padding-top: 85px;"/>
+				</div>	
+			</div>	
 	</article>
 	
 	<!--</li>-->

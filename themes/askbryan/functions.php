@@ -83,6 +83,8 @@
 	    wp_register_script( 'bootstrapJs', get_stylesheet_directory_uri().'/js/bootstrap.min.js', '', '', '' );
 	    wp_enqueue_script( 'bootstrapJs' );
 	    
+	    add_theme_support( 'post-thumbnails' );
+	    
 
 	  	
 	}	

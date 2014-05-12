@@ -16,10 +16,10 @@
 ?>
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 
-<div class="container-fluid">
+<div class="container-fluid home-bg">
 		<div class="row hero clear">
 			<div class="estimate col-md-6 container">
-				<h2>Home Estimate</h2>
+				<h2>House Analysis</h2>
 					<br/>
 				<p>Cras mattis consectetur purus sit amet fermentum.<br />Donec ullamcorper nulla non metus auctor fringilla.</p>
 						<button class="btn h-btn btn-primary">Estimate My Home</button>
@@ -34,7 +34,7 @@
 						<button class="btn h-btn btn-success">Stay In The Loop</button>	
 				</div>
 			</div>		
-
+</div>
 <!-- Blog Section -->												
 <div class="container" style="padding-top: 75px; padding-bottom: 120px;">
 	<div class="row">

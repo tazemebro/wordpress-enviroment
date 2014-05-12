@@ -53,10 +53,10 @@
 	<article class="home_post container">
 		<div class="row">
 			<h2><a href="<?php esc_url( the_permalink() ); ?>" title="Permalink to <?php the_title(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-				<div class="col-md-7">
+				<div class="col-md-9">
 					<?php the_content(); ?>
 				</div>
-				<div class="col-md-5">	
+				<div class="col-md-3">	
 					<?php if(has_post_thumbnail()){the_post_thumbnail();}else{echo 'not';} ?>
 			</div>	
 	</article>

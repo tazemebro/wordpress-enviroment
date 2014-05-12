@@ -170,6 +170,10 @@ a.navbar-brand{
 }
 
 .home p {
+<<<<<<< HEAD
+=======
+	color: black;
+>>>>>>> FETCH_HEAD
 	
 }
 
@@ -393,4 +397,7 @@ article.home_post{
  width: 365px !important;
 	
  height: 365px !important;
+}
+.home_image {
+	
 }

@@ -19,23 +19,31 @@
 <div class="container-fluid home-bg">
 		<div class="row hero clear">
 			<div class="estimate col-md-6 container">
+<<<<<<< HEAD
 				<div class="col-md-12" style="text-align: center;"><img src="<?php bloginfo ('template_directory'); ?>/css/images/icon-ana.png"/></div>
 				<br/>
+=======
+				<div class="col-md-12" style="text-align: center;"><img src="<?php bloginfo ('template_directory'); ?>/css/images/house.png"/></div>
+>>>>>>> FETCH_HEAD
 				<h2>House Analysis</h2>
 					<br/>
 				<p>Cras mattis consectetur purus sit amet fermentum.<br />Donec ullamcorper nulla non metus auctor fringilla.</p>
-						<button class="btn h-btn btn-primary">Estimate My Home</button>
+						<button class="btn h-btn btn-primary">Find House Value</button>
 		
 		
 			</div>		
 	
 			<div class="reports col-md-6 container">
 							<div class="col-md-12" style="text-align: center;"><img src="<?php bloginfo ('template_directory'); ?>/css/images/icon-plane.png"/></div>
+<<<<<<< HEAD
 				<br/>
 				<h2>Get Reports</h2>
+=======
+				<h2>Search Homes</h2>
+>>>>>>> FETCH_HEAD
 					<br/>
 				<p>Donec ullamcorper nulla non metus auctor fringilla.<br />Donec id elit non mi porta gravida at eget metus.</p>
-						<button class="btn h-btn btn-success">Stay In The Loop</button>	
+						<button class="btn h-btn btn-success">Search for Homes</button>	
 				</div>
 			</div>		
 </div>
@@ -55,10 +63,10 @@
 	<article class="home_post container">
 		<div class="row">
 			<h2><a href="<?php esc_url( the_permalink() ); ?>" title="Permalink to <?php the_title(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-				<div class="col-md-9">
+				<div class="col-md-8">
 					<?php the_content(); ?>
 				</div>
-				<div class="col-md-3">	
+				<div style="margin-top: 95px;" class="col-md-4">
 					<?php if(has_post_thumbnail()){the_post_thumbnail();}else{echo 'not';} ?>
 			</div>	
 	</article>
@@ -72,16 +80,16 @@
 		<?php endif; ?>
 	</div>
 </div>
-<!-- End Blog Section -->
+<!-- End Blog Section --> 
 <!-- Testimonials -->
-<?php layerslider(2) ?>			
+<?php layerslider(3) ?>			
 <!-- End Testimonials -->
 
 <!-- Meet Bryan Section -->
-<div class="meet_bryan container" style="padding-bottom: 200px;">
+<div class="meet_bryan container" style="padding-top: 150px; padding-bottom: 200px;">
 	<div class="row">
 	<div class="col-md-6">				
-				<img src="<?php bloginfo ('template_directory'); ?>/css/images/bryan.png" alt="Bryan Vasquez" style="margin-top: -90px;"/>
+				<img src="<?php bloginfo ('template_directory'); ?>/css/images/bryan.png" alt="Bryan Vasquez" style="margin-top: -35px; margin-left: 55px;" />
 	</div>		
 		<div class="col-md-6">
 				<h1>Meet Bryan</h1>		
@@ -110,12 +118,11 @@
 					<button type="submit" class="submit	">Submit</button>
 				</form>
 			</div>
-		<div class="col-md-6" style="text-align: center; margin-top: 200px;" >
+		<div class="col-md-6" style="text-align: center; margin-top: 265px;" >
 				<h3 style="color: white;">Click the cards to download my info!</h2>
 			<img src="<?php bloginfo ('template_directory'); ?>/css/images/contact_info.png" alt="contact info" />
 		</div>	
 	</div>	
 </div>
-
 
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer') ); ?>

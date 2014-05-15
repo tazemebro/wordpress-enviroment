@@ -88,7 +88,12 @@ h6 					{ font-weight:bold; color: black; /* This helps to identify headings at 
 	margin: 0px 20px 0px 0px;
 }
 .btn-success{
-	background: #47a447;
+	background: #ff0000;
+	border: none;
+	
+}
+.btn-success hover {
+	background-color: #ff0000;
 }
 .btn-danger{
 	background: #ec2027;

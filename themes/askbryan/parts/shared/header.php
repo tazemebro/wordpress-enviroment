@@ -17,7 +17,7 @@
 	    Menu <span class="caret"></span>
 	  </button>
 	  <ul class="dropdown-menu" role="menu">
-	    <li><a href="#">Blog</a></li>
+	    <li><a href=".blog">Blog</a></li>
 	    <li><a href="#">Customer Testimonials</a></li>
 	    <li><a href="#">Meet Bryan</a></li>
 	    <li class="divider"></li>

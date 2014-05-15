@@ -19,36 +19,20 @@
 <div class="container-fluid home-bg">
 		<div class="row hero clear">
 			<div class="estimate col-md-6 container">
-<<<<<<< HEAD
-				<div class="col-md-12" style="text-align: center;"><img src="<?php bloginfo ('template_directory'); ?>/css/images/icon-ana.png"/></div>
-=======
-<<<<<<< HEAD
-				<div class="col-md-12" style="text-align: center;"><img src="<?php bloginfo ('template_directory'); ?>/css/images/icon-ana.png"/></div>
-				<br/>
-=======
 				<div class="col-md-12" style="text-align: center;"><img src="<?php bloginfo ('template_directory'); ?>/css/images/house.png"/></div>
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 				<h2>House Analysis</h2>
 					<br/>
-				<p>Find out how much your house is worth!</p>
-						<button class="btn h-btn btn-primary">Find House Value</button>	
+				<p>Cras mattis consectetur purus sit amet fermentum.<br />Donec ullamcorper nulla non metus auctor fringilla.</p>
+						<button class="btn h-btn btn-primary">Find House Value</button>
+		
+		
 			</div>		
 	
 			<div class="reports col-md-6 container">
-<<<<<<< HEAD
-							<div class="col-md-12" style="text-align: center;"><img src="<?php bloginfo ('template_directory'); ?>/css/images/house.png"/></div>
-=======
 							<div class="col-md-12" style="text-align: center;"><img src="<?php bloginfo ('template_directory'); ?>/css/images/icon-plane.png"/></div>
-<<<<<<< HEAD
-				<br/>
-				<h2>Get Reports</h2>
-=======
->>>>>>> FETCH_HEAD
 				<h2>Search Homes</h2>
->>>>>>> FETCH_HEAD
 					<br/>
-				<p>Search for your next home now!</p>
+				<p>Donec ullamcorper nulla non metus auctor fringilla.<br />Donec id elit non mi porta gravida at eget metus.</p>
 						<button class="btn h-btn btn-success">Search for Homes</button>	
 				</div>
 			</div>		

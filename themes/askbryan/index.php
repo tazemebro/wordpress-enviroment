@@ -19,14 +19,7 @@
 <div class="container-fluid home-bg">
 		<div class="row hero clear">
 			<div class="estimate col-md-6 container">
-<<<<<<< HEAD
-				<div class="col-md-12" style="text-align: center;"><img src="<?php bloginfo ('template_directory'); ?>/css/images/icon-ana.png"/></div>
-=======
-
-				<div class="col-md-12" style="text-align: center;"><img src="<?php bloginfo ('template_directory'); ?>/css/images/icon-ana.png"/></div>
-				<br/>
-
->>>>>>> FETCH_HEAD
+				<div class="col-md-12" style="text-align: center;"><img src="<?php bloginfo ('template_directory'); ?>/css/images/house.png"/></div>
 				<h2>House Analysis</h2>
 					<br/>
 				<p>Cras mattis consectetur purus sit amet fermentum.<br />Donec ullamcorper nulla non metus auctor fringilla.</p>
@@ -36,15 +29,8 @@
 			</div>		
 	
 			<div class="reports col-md-6 container">
-<<<<<<< HEAD
-							<div class="col-md-12" style="text-align: center;"><img src="<?php bloginfo ('template_directory'); ?>/css/images/house.png"/></div>
-				<h2>Search Homes</h2>
-=======
 							<div class="col-md-12" style="text-align: center;"><img src="<?php bloginfo ('template_directory'); ?>/css/images/icon-plane.png"/></div>
-
 				<h2>Search Homes</h2>
-
->>>>>>> FETCH_HEAD
 					<br/>
 				<p>Donec ullamcorper nulla non metus auctor fringilla.<br />Donec id elit non mi porta gravida at eget metus.</p>
 						<button class="btn h-btn btn-success">Search for Homes</button>	

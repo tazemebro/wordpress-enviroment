@@ -38,7 +38,7 @@
 			</div>		
 </div>
 <!-- Blog Section -->												
-<div class="#blogsection container" style="padding-top: 75px; padding-bottom: 120px;">
+<div id="blogsection" class="container" style="padding-top: 75px; padding-bottom: 120px;">
 	<div class="row">
 		<div class="blog col-md-7 pull-right">
 			<h3 class="latest">Latest From The Blog!</h3>
@@ -72,13 +72,13 @@
 </div>
 <!-- End Blog Section --> 
 <!-- Testimonials -->
-<div class="#testimonials">
+<div id="testimonials" class="testimonials">
 	<?php layerslider(3) ?>	
 </div>		
 <!-- End Testimonials -->
 
 <!-- Meet Bryan Section -->
-<div class="meet_bryan container" style="padding-top: 150px; padding-bottom: 200px;">
+<div id="meet_bryan" class="meet_bryan container" style="padding-top: 150px; padding-bottom: 200px;">
 	<div class="row">
 	<div class="col-md-6">				
 				<img src="<?php bloginfo ('template_directory'); ?>/css/images/bryan.png" alt="Bryan Vasquez" style="margin-top: -35px; margin-left: 55px;" />
@@ -92,7 +92,7 @@
 </div>
 <!-- End Meet Bryan Section -->
 <!-- Contact Section -->
-	<div class="contact container-fluid" style="width: 100%; padding-top: 100px; padding-bottom: 250px;">
+	<div id="contact" class="contact container-fluid" style="width: 100%; padding-top: 100px; padding-bottom: 250px;">
 		<div class="row"> 
 			<div class="col-md-6 contact_form">
 				<h2 style="margin-left: 50px;">Let's Get in Touch</h2>

@@ -19,8 +19,8 @@
 	  <ul class="dropdown-menu" role="menu">
 	    <li><a href="#blogsection">Blog</a></li>
 	    <li><a href="#testimonials">Customer Testimonials</a></li>
-	    <li><a href=".meet_bryan">Meet Bryan</a></li>
-	    <li><a href=".contact">Contact Bryan</a></li>
+	    <li><a href="#meet_bryan">Meet Bryan</a></li>
+	    <li><a href="#contact">Contact Bryan</a></li>
 	  </ul>
 	</div>
   </div><!-- /.container-fluid -->

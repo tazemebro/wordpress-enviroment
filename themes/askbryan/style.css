@@ -88,8 +88,11 @@ h6 					{ font-weight:bold; color: black; /* This helps to identify headings at 
 	margin: 0px 20px 0px 0px;
 }
 .btn-success{
-	background: #ff0000;
+	background-color: #ff0000;
 	border: none;
+}
+.btn-success:hover{
+	background-color: #e40000;
 }
 .btn-danger{
 	background: #ec2027;
@@ -138,10 +141,11 @@ a.navbar-brand{
 05 Body ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 .hero {
-	background: url(../askbryan/css/images/home_background.png);
+	background: url(../askbryan/css/images/home_background.png) fixed;
 	background-size: cover;
 	padding:225px 45px 100px 45px;
-	margin-top: -20px; 
+	margin-top: -20px;
+	 
 }
 
 .sub-sect{

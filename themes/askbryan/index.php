@@ -38,7 +38,7 @@
 			</div>		
 </div>
 <!-- Blog Section -->												
-<div class="container" style="padding-top: 75px; padding-bottom: 120px;">
+<div class="#blogsection container" style="padding-top: 75px; padding-bottom: 120px;">
 	<div class="row">
 		<div class="blog col-md-7 pull-right">
 			<h3 class="latest">Latest From The Blog!</h3>
@@ -72,7 +72,9 @@
 </div>
 <!-- End Blog Section --> 
 <!-- Testimonials -->
-<?php layerslider(3) ?>			
+<div class="#testimonials">
+	<?php layerslider(3) ?>	
+</div>		
 <!-- End Testimonials -->
 
 <!-- Meet Bryan Section -->

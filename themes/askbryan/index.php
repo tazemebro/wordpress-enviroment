@@ -95,17 +95,64 @@
 			<div class="col-md-6 contact_form">
 				<h2 style="margin-left: 50px;">Let's Get in Touch</h2>
 
-				<form method="post" action="contact">
-					<input type="text" name="cf_name" placeholder="Name" />
-						<br />
-						<br />
-					<input type="text" name="cf_email" placeholder="Email" />
-						<br />
-						<br />
-					<input type="text" name="cf_service" placeholder="What Can I Do For You?" style="padding-bottom: 90px;" />
-						<br />
-						<br />
-					<button type="submit" class="submit	">Submit</button>
+				<form method="POST" action="https://www.thewiseagent.com/secure/webcontactAllFields.asp" name="myForm" onSubmit="return chkForm(this);">
+				<input type="hidden" name="ID" value="67,183,209,24,89,205,24,70,226">
+				<input type="hidden" name="responsePage" value="http://www.AskBryanRealtyGroup.com">
+				<input type="hidden" name="ProgramID" value="0">
+				<input type="hidden" name="Source" value="Website">
+				<input type="hidden" name="Categories" value=""><!-- semicolon;delimited no spaces -->
+				<input type="hidden" name="currentUser" value="Bryan Vasquez"><!-- internal team member -->
+				<input type="hidden" name="noMail" value="0"><!-- 0/1 if set to 1, no reply to the visitor is sent. -->
+				<textarea name="replyMessage" style="display:none;"><p>[vistorname],</p>
+				
+				<p><br />
+				I will be in contact with you soon.<br />
+				<br />
+				Thank you for visiting my site.</p>
+				</textarea>
+				<input type="hidden" name="replySubject" value="Contact from Bryan Vasquez website">
+				<input type="hidden" name="replySenderEmail" value="askbryanrealtygroup@gmail.com">
+				<input type="hidden" name="notifySubject" value="New Contact From Website!">
+				<input type="hidden" name="notifyFields" value="">
+				<input type="hidden" name="notifyCc" value=""><!-- comma, delimited -->
+				<input type="hidden" name="notifyBcc" value=""><!-- comma, delimited -->
+				<script language=javascript>
+				<!--
+				function chkForm(theForm) {
+				    if(theForm.CFirst.value=="") {
+				        alert("Please fill in your name.")
+				        theForm.CFirst.focus();
+				        return false;
+				    }
+				    var email = theForm.CEmail.value;
+				    if(email.indexOf("@")<1){
+				        alert("Please fill in your email address.");
+				        theForm.CEmail.focus();
+				        return false;
+				    }
+				return true;
+				}
+				-->
+				 </script>
+				<table width="500px" border="0" cellspacing="0" cellpadding="0" align="center"><tr><td>
+				<div id="previewPane" class="waui_wrapper">
+				<table width="100%" border="0" cellspacing="0" cellpadding="2" align="center"> 
+				<tr><td colspan="2"><div id="previewTopSection" class="waui_top"></div></td></tr>
+				<tr><td class="waui_td_left">Name</td>
+				<td class="waui_td_right"><input type="text" name="CFirst" id="CFirst" placeholder="Name" class="waui_input contact" value="" /> *</td></tr>
+				<tr><td class="waui_td_left">Email</td>
+				<td class="waui_td_right"><input type="text" name="CEmail" id="CEmail" placeholder="Email" class="waui_input contact" value="" /> *</td></tr>
+				<tr><td class="waui_td_left">Phone</td>
+				<td class="waui_td_right"><input type="text" name="Phone" id="Phone" placeholder="Phone" class="waui_input contact" value="" /></td></tr>
+				<tr><td class="waui_td_left">Comments</td>
+				<td class="waui_td_right"><input type="text" name="Message" id="Message" placeholder="Message" class="waui_input contact" value="" /></td></tr>
+				<tr><td class="waui_td_left">&nbsp;</td>
+				<td class="waui_td_right"><button type="submit" value="Submit" class="waui_submit submit">Submit</button></td></tr>
+				<tr><td colspan="2"><div id="previewBottomSection" class="waui_bottom"></div></td></tr>
+				</table>
+				</div>
+				</td></tr></table>
+				<input type="hidden" name="CommaDelimitedFormFields" value="">
 				</form>
 			</div>
 		<div class="col-md-6" style="text-align: center; margin-top: 265px;" >
